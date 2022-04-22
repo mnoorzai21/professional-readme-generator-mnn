@@ -70,7 +70,7 @@ const promptUser = () => {
 const init = () => {
     promptUser()
 
-    .then((answers) => fs.writeFileSync("./src/README.md", generateReadme(answers)))
+    .then((answers) => fs.writeFileSync("README.md", generateReadme(answers)))
         .then(() => console.log("successfully wrote to README.md"))
         .catch((err) => console.error(err));
 };
