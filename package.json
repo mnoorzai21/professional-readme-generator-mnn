@@ -1,14 +1,23 @@
 {
-  "name": "static-site",
+  "name": "professional-readme-generator-mnn",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnoorzai21/professional-readme-generator-mnn.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnoorzai21/professional-readme-generator-mnn/issues"
+  },
+  "homepage": "https://github.com/mnoorzai21/professional-readme-generator-mnn#readme",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "inquirer": "^8.2.2"
   }
 }
